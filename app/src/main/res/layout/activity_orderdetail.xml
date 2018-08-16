@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orderdetail">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/reback"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="返回"/>
+        <TableRow
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/top"/>
+
+        </TableRow>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodlist">
+
+
+        </ListView>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sumprice"
+        >
+
+
+    </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
